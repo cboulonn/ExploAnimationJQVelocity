@@ -1,0 +1,101 @@
+
+http://codepen.io/collection/tIjGb/ : "Velocity.js: The Official Collection" exemple de codes et d'anim.
+
+http://julian.com/research/velocity/ - Documentation de velocity.js
+
+https://css-tricks.com/improving-ui-animation-workflow-velocity-js/ - Definition, tutoriel, explications pour velocity.js
+
+http://webdesign.tutsplus.com/tutorials/silky-smooth-web-animation-with-velocityjs--cms-24266 guide velocity
+
+http://www.w3schools.com/jquery/jquery_animate.asp - Bon tuto pour comprendre JQ
+
+http://api.jquery.com/animate/ exemple pour jq 
+
+https://davidwalsh.name/css-js-animation
+
+http://www.grafikart.fr/tutoriels/jquery/velocityjs-animation-jquery-506
+
+
+Velocity definition : a JavaScript animation engine for fast performance animation je traduis ? :p
+
+Proposition organisation tuto : 
+    
+    1- Définition en long et en large de Jquery et Velocity (définitions plus ou moins communes)
+    2- comment lier Jquery OU/ET Velocity à notre site
+    3- Donner toutes les ".animate" possible ( .click etc...)
+    4- Expliquer  " $(selector).animate({params},speed,callback); "     Velocity(document.getElementById("dummy"), { opacity: 0.5 }, { duration: 1000 });
+    5- Donner des exemples concrets
+    
+  http://api.jquery.com/animate/ animation possible animate jq
+    
+    1. Definition : Jquery est une librairie de JS qui permet de simplifier l'écriture du code Javascript. Est notamment utilisé pour créer de l'interaction au sein d'une interface utilisateur.
+    //Améliore la compatibilité du code avec les différents navigateurs.// TO CHECK
+   
+    Definition : Velocity est un moteur d'animation web (???) avec la même API que "jQuery's $animate()".
+    Marche avec et sans JQuery
+   Plus rapide que JQuery, il permet de mettre en place des animations en couleurs, transformations, boucles, "easing" (assouplissement), support du format SVG (Scalable Vector Graphic), et défilement. 
+   C'est une combinaison de JQuery et   Il est donc possible d'utiliser Velocity en solution toute faite au lieu de créer la votre ( ou de la lier sur JQuery ) : faire des boucles, des retours arrieres, programmer des retards, montrer /cacher des éléments, utiliser des éléments/opérations mathématiques  (+, -, *, /)
+   Velocity remplace tout ce qu'il est possible de faire avec la fonction -animate- de JQuery.  / A CHECKER
+   
+   2.  Velocity 
+Télécharger les fichiers ici : https://github.com/julianshapiro/velocity
+Inclure dans sa page avec cette balise : <script src="js/velocity.js" type="text/javascript"></script>
+Remplacer toutes les instances $.animate() de JQuery par $.velocity().
+Pour un démarrage rapide, voici le code HTML vous permettant d'accquerir Velocity sans avoir à le télécharger : <script src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
+
+Il ets possible d'utiliser la console avec npm ou bower : npm install velocity-animate / bower install velocity
+
+JQuery
+Télécharger les fichiers ici : http://jquery.com/download/
+Inclure dans sa page avec cette balise : <script src="js/jquery.js" type="text/javascript"></script> que vous devez integrer a votre site entre les balises <head> et </head>
+Pour un démarrage rapide, voici le code HTML vous permettant d'accquerir jQuery sans avoir à le télécharger : <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" />  
+
+
+
+
+
+
+
+
+
+3. Animate possible : http://api.jquery.com/animate/   ---------   http://www.w3schools.com/jquery/jquery_events.asp
+selecteurs possible : http://www.w3schools.com/jquery/jquery_selectors.asp
+
+
+
+
+
+
+
+
+
+
+5. $("p").click(function()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jkj
+
