@@ -1,8 +1,8 @@
-$bleu = red;
+$bleu : red;
+$pingouin: black;
 
 body {
-  background-color: $bleu;
-   }
+  background-color: $bleu; }
 
 #bloc1 {
   width: 250px;
@@ -35,5 +35,3 @@ body {
   background-color: #f0f0f0;
   margin-top: 15px;
   margin-left: 15px; }
-
-/*# sourceMappingURL=style.css.map */
